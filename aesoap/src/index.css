@@ -1,0 +1,421 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family:   Zapf Humanist,serif;;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*/ NAVBAR */
+
+ .headline{
+  padding-top: 7px;
+  display: flex;
+  justify-content:center;
+  height: 35px;
+  background-color: #cdcdb3;
+  align-items: center;
+  
+}
+
+
+
+
+.headline p {
+  color:rgb(63, 57, 57);
+}
+.headline a {
+  color:rgb(0, 0, 0);
+  font-weight: 500;
+  text-decoration:none;
+  font-size:14px;
+}
+.secondline{ 
+  display: flex;
+  justify-content:center;
+  height: 35px;
+  background-color: rgb(29, 27, 25);
+  align-items: center;
+}
+.secondline a {
+  color: white;
+  font-size:16px;
+  text-decoration:none;
+  font-weight: 700;
+}
+.secondline a:hover{
+  
+  text-decoration:underline ;
+}
+
+#navbarNav{
+justify-content: space-evenly;
+}
+
+
+/* Home page*/
+
+.secondhome img{
+  height: 580px;
+  width: 100%;
+  
+}
+
+
+.heddingtext{
+  display: flex; 
+  position: relative;
+ top: -500px;
+ padding-left: 50px;
+ column-gap: 90px;
+}
+.heddingtext h1{
+  color:white ;
+}
+
+.headding{
+  box-sizing: border-box;
+  width: 500px;
+  text-align: start;
+  color:white ;
+}
+.headding button{
+  height: 60px;
+  width: 300px;
+  text-align:start ;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding:20px;
+}
+.headding button:hover{
+  background-color: white;
+  color: black;
+}
+.arrow{
+  display: flex;
+  align-items: center;
+ padding: 20px; 
+}
+.arrow i{
+  position: relative;
+  left:100px;
+  
+}
+
+
+.soapcover{
+ display: flex;
+ height: 550px;
+
+ position: relative;
+top:-180px;
+
+}
+.content{
+  text-align: start;
+  
+  align-items: start;
+  margin-left: 80px;
+}
+.content a {
+  text-decoration: none;
+  color: black;
+}
+.contentarrow{
+  display: flex;
+  align-items: center;
+  text-align: start;
+  column-gap:20px;
+}
+
+.soapcover img {
+  height: 300px;
+  width: 500px;
+}
+.brownimage{
+  position: relative;
+  top: 100px ;
+}
+.whiteimage {
+  position: relative;
+  top: 100px ;
+}
+
+
+.Athenaeum, .Aesoppoo {
+  display: flex;
+  justify-content:space-between ;
+  column-gap: 80px;
+  margin-bottom: 50px;
+}
+
+.Athenaeumtext{
+  text-align:start ;
+  margin-left: 80px;
+}
+
+.readbutton button:hover{
+  background-color: #252525;
+  color: white;
+ 
+
+}
+.Athenaeumtext button{
+  height: 60px;
+  width: 280px;
+  text-align: start;
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid rgb(143, 139, 139);
+  padding:20px;
+}
+
+.readbutton i{
+   position: relative;
+   left: 140px;
+}
+
+.Athenaeum img{
+  height: 460px;
+  width: 900px;
+}
+
+.Skinproduct, .homeproduct {
+  display: flex;
+  height: 550px;
+
+  column-gap: 90px;
+  margin-top: 90px;
+  
+}
+.Skinproduct img {
+  height: 400px;
+  width: 400px;
+}
+.skincontent{
+  text-align: start;
+  margin-left: 80px;
+}
+.skincontent i{
+  position: relative;
+  bottom: -3px;
+}
+.skincontent a {
+  text-decoration:none ;
+  color: black;
+}
+
+.Aesoppoo img {
+  height: 500px;
+  width: 880px;
+}
+.Aesoppootext{
+  margin-right: 100px;
+  text-align: start;
+    
+}
+.Aesoppootext button{
+  height: 60px;
+  width:300px;
+  text-align: start;
+  padding: 20px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid rgb(153, 148, 148);
+}
+.Aesoppootext button i{
+  position: relative;
+  left: 80px;
+}
+
+.Aesoppootext button:hover{
+  background-color: #252525;
+  color: white;
+} 
+
+.dropimage img{
+
+  height: 400px;
+  width: 400px;
+
+}
+.candleimage img {
+  height: 400px;
+  width: 400px;
+}
+.homecontent{
+  text-align: start;
+  margin-left:80px;
+  
+}
+.homecontent a {
+  text-decoration: none;
+  color: black;
+}
+.homecontent i{
+  position: relative;
+  bottom: -3px;
+}
+
+.bootimage img{
+  height: 500px;
+  width: 600px;
+}
+
+.store{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom:60px;
+  column-gap:80px;
+  margin-left:80px;
+  
+}
+.storetext{
+  box-sizing:border-box;
+  width:400px;
+  text-align: start;
+  
+}
+.storetext button{
+  height: 60px;
+  width: 300px;
+  background-color: transparent;
+  text-align: start;
+  border: 1px #989897 solid ;
+  padding:20px ;
+}
+.storetext button:hover{
+  background-color: #252525;
+  color: white;
+}
+
+.storetext i {
+  position: relative;
+  left: 100px;
+}
+
+.AesopMOKO{
+ 
+  box-sizing: border-box;
+  height: 300px;
+
+}
+.AesopMOKO h1{
+ margin-top: 200px;
+  justify-content:center;
+  align-items: center;
+}
+
+/* Footer */
+.Footermain{
+  background-color: #252525;
+  
+}
+.Footermain p {
+  font-weight: 800;
+}
+
+.Firstfooter,.Secondfooter{
+  display: flex;
+  padding:40px ;
+  color: white;
+  line-height: 35px;
+}
+
+.footercontent{
+  box-sizing: border-box;
+  height:auto;
+  width:700px ;
+  text-align: start;
+
+}
+
+.secondcontent{
+  box-sizing: border-box;
+  height:auto;
+  width:570px ;
+  text-align: start;
+}
+.textplace{
+display: flex;
+align-items: content;
+justify-content: center;
+border: 1px solid #ffffff;
+}
+.textplace input{
+  height:39px;
+  width:530px;
+  background-color:#252525;
+  outline-color: none;
+  color:white;
+  border: none;
+  
+}
+.textplace button{
+  background-color: #252525;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  color:white;
+  border:none ;
+  outline-color: none;
+}
+.orderlist , .servicelist, .locationlist  {
+ box-sizing: border-box;
+ width: 350px;
+ text-align: start;
+ 
+ 
+}
+.aboutlist,.sociallist{
+ box-sizing: border-box;
+ width: 290px;
+ text-align: start;
+
+}
+.orderlist li, .servicelist li, .locationlist li , .aboutlist li, .sociallist li{
+   list-style: none;
+   line-height: 35px;
+}
+.orderlist li a, .servicelist li a, .locationlist li a, .aboutlist li a, .sociallist li a{
+  text-decoration: none;
+  color: white;
+}
+
+.footerlogo {
+  text-align: start;
+ align-items: center;
+  color: white;
+  padding: 20px;
+  margin-left: 20px;
+ 
+}
+.footerlogo h5 i {
+  font-size:17px;
+  column-gap: 20px;
+
+}
+
+ hr{
+  border: 1px #d6d5cb solid ;
+  font-weight: 500;
+   
+}
+
+.lasthr{
+  border: 2px  solid #ffffff;
+
+}
+.tagline {
+   text-decoration: underline;
+}
